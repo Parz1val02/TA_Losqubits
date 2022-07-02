@@ -68,7 +68,7 @@ int pubkeys(int phi)
     while (1)
     {
         e = pub_keys[rand() % (sizeof(pub_keys) / sizeof(pub_keys[0]))];
-        if (e == 0 || e == 1)
+        if (e == 0)
         {
             continue;
         }
